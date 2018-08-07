@@ -15,7 +15,8 @@ LABEL name="infotechsoft/pegasus" \
 # Pegasus-WMS
 RUN curl -o /etc/yum.repos.d/pegasus.repo https://download.pegasus.isi.edu/wms/download/rhel/7/pegasus.repo && \
 	yum -y update && \
-	yum -y install pegasus-${PEGASUS_VERSION} && \
+	yum -y install epel-release && \
+	yum -y install pegasus-${PEGASUS_VERSION} python36 && \
 	yum -y clean all && \
 	export PYTHONPATH=`pegasus-config --python` && \
 	export PERL5LIB=`pegasus-config --perl` && \
