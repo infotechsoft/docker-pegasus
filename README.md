@@ -1,8 +1,8 @@
 # docker-pegasus-wms
-<a href="https://pegasus.isi.edu/"><img src="https://pegasus.isi.edu/wordpress/wp-content/uploads/2015/10/logo.png" height="48px" alt="Pegasus-WMS"/></a> deployment for Docker based on infotechsoft/htcondor
+<a href="https://pegasus.isi.edu/"><img src="https://raw.githubusercontent.com/pegasus-isi/pegasus/master/doc/docbook/images/pegasusfront-black-reduced.png" height="48px" alt="Pegasus-WMS"/></a> deployment for Docker based on infotechsoft/htcondor
 
 ## Build Details
- * Pegasus WMS Version: 4.8.3
+ * Pegasus WMS Version: 4.8.4
  * HTCondor Version: 8.6.12
  * Java Version: 8
  
