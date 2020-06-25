@@ -1,6 +1,7 @@
-FROM infotechsoft/htcondor:8.8
+FROM infotechsoft/htcondor:8.9
 
-ARG PEGASUS_VERSION=4.9.1
+ARG BUILD_DATE
+ARG PEGASUS_VERSION=4.9.3
 ENV PEGASUS_VERSION $PEGASUS_VERSION
 ENV PEGASUS_SERVER_HOST	localhost
 ENV PEGASUS_SERVER_PORT	5000
@@ -9,7 +10,7 @@ EXPOSE $PEGASUS_SERVER_PORT
 LABEL name="infotechsoft/pegasus" \
 	vendor="INFOTECH Soft, Inc." \
 	version="${PEGASUS_VERSION}" \
-	release-date="2019-03-06" \
+	build-date="${BUILD_DATE}" \
 	maintainer="Thomas J. Taylor <thomas@infotechsoft.com>"
 
 # Pegasus-WMS

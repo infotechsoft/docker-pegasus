@@ -4,8 +4,8 @@
 ## Build Details
  * Pegasus WMS Version: 4.9.1
    * https://pegasus.isi.edu/2019/03/06/pegasus-4-9-1-released/
- * HTCondor Version: 8.8.1
- * Java Version: 8
+ * HTCondor Version: 8.9
+ * Java Version: 11
  
 # Maintainer 
 ![INFOTECH Soft](http://infotechsoft.com/wp-content/uploads/2017/04/InfotechSoft_logo-small.png "INFOTECH Soft, Inc.")
